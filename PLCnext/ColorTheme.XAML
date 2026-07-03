@@ -1,0 +1,1154 @@
+﻿<!--
+*******************************************************************************
+*
+* Copyright PHOENIX CONTACT Software GmbH
+*
+*******************************************************************************
+-->
+
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    
+    <!-- region basic Colors -->
+
+    <!-- #FFF6F6F6 -->
+    <Color x:Key="SpecialGrey">#FFF6F6F6</Color>
+
+    <!-- #FFECEDED -->
+    <Color x:Key="LightGrey">#FFECEDED</Color>
+
+    <!-- #FF58585A -->
+    <Color x:Key="MediumGrey">#FF58585A</Color>
+    
+    <!-- #FF3E3D40 -->
+    <Color x:Key="DarkGrey">#FF3E3D40</Color>
+
+    <!-- #FF96D20D -->
+    <Color x:Key="LightGreen">#FF96D20D</Color>
+
+    <!-- #FF64C8FF -->
+    <Color x:Key="BlueGreen">#FF64C8FF</Color>
+
+    <!-- #FFC75CFF -->
+    <Color x:Key="Purple">#FFC75CFF</Color>
+
+    <Color x:Key="DropShadowEffectColor">Black</Color>
+
+    <!-- endregion basic Colors -->
+
+    
+    <!--region Active Control Colors -->
+
+    <!-- #FFCCD0D2 -->
+    <Color x:Key="ColorActiveBorderBrushKey">#FFCCD0D2</Color>
+
+    <!-- #FFCCD0D2 -->
+    <Color x:Key="ColorWindowFrameBrushKey">#FFCCD0D2</Color>
+
+    <!-- #FFECEDED -->
+    <Color x:Key="ColorControlActiveBackgroundBrush">#FFECEDED</Color>
+
+    <!-- #FFFFFFFF -->
+    <Color x:Key="ColorControlActiveEditableBackgroundBrush">#FFFFFFFF</Color>
+
+    <!-- #FF3E3D40 -->
+    <Color x:Key="ColorWindowTextBrushKey">#FF3E3D40</Color>
+
+    <!-- #FF3E3D40 -->
+    <Color x:Key="ColorControlTextBrushKey">#FF3E3D40</Color>
+
+    <!-- #FFF6F6F6" -->
+    <Color x:Key="ColorDialogContentBackgroundBrush">#FFF6F6F6</Color>
+
+    <!--endregion Active Control Colors -->
+    
+
+    <!--region Over Control Colors -->
+
+    <!-- #FF77B9BF -->
+    <Color x:Key="ColorControlOverBorderBrush">#FF77B9BF</Color>
+
+    <!-- #FFD4EEEF -->
+    <Color x:Key="ColorControlOverBackgroundBrush">#FFD4EEEF</Color>
+
+    <!--endregion Over Control Colors -->
+
+
+    <!--region Focused Control Colors -->
+
+    <!-- #FF0098A1 -->
+    <Color x:Key="ColorControlFocusedBorderBrush">#FF0098A1</Color>
+
+    <!-- #FFECEDED -->
+    <Color x:Key="ColorControlFocusedBackgroundBrush">#FFECEDED</Color>
+
+    <!--endregion Focused Control Colors -->
+
+
+    <!--region Selected Control Colors -->
+
+    <!-- #FF77B9BF -->
+    <Color x:Key="ColorControlSelectedBorderBrush">#FF77B9BF</Color>
+
+    <!-- #FF7FCCD0 -->
+    <Color x:Key="ColorControlSelectedBackgroundBrush">#FF7FCCD0</Color>
+
+    <!-- Same as #9FA0A0 with 50% opacity -->
+    <!-- #FFCFCFCF -->
+    <Color x:Key="ColorControlSelectedInactiveBackgroundBrush">#FFCFCFCF</Color>
+
+    <!-- #FF3E3D40 -->
+    <Color x:Key="ColorControlSelectedForegroundBrush">#FF3E3D40</Color>
+
+    <!-- #660098A1 -->
+    <Color x:Key="ColorControlSelectionBackgroundBrush">#660098A1</Color>
+
+    <!--endregion Focused or Selected Control Colors -->
+
+
+    <!--region Focused or Selected Editable Control Colors -->
+
+    <!-- #FF0098A1" -->
+    <Color x:Key="ColorControlFocusedEditableBorderBrush">#FF0098A1</Color>
+
+    <!--endregion Focused or Selected Editable Control Colors -->
+
+
+    <!--region Pressed Control Colors -->
+
+    <!-- #FF7FCCD0 -->
+    <Color x:Key="ColorControlPressedBackgroundBrush">#FF7FCCD0</Color>
+
+    <!-- #FF77B9BF -->
+    <Color x:Key="ColorControlPressedBorderBrush">#FF77B9BF</Color>
+
+    <!--endregion Pressed Control Colors -->
+
+
+    <!--region Inactive Control Colors -->
+
+    <!-- #FFD6D9DB -->
+    <Color x:Key="ColorGrayTextBrushKey">#FFD6D9DB</Color>
+
+    <!-- #FFEBECED -->
+    <Color x:Key="ColorControlInactiveEditableBorderBrush">#FFEBECED</Color>
+
+    <!--endregion Inactive Control Colors -->
+
+
+    <!--region Common Colors -->
+
+    <!-- #FFE1E1E1 -->
+    <Color x:Key="ColorPopupBackgroundBrushKey">#FFE1E1E1</Color>
+
+    <!-- #FFFFFFFF -->
+    <Color x:Key="ColorWindowBrushKey">#FFFFFFFF</Color>
+
+    <!-- #FFF6F6F6 -->
+    <Color x:Key="ColorMainWindowBackgroundBrushKey">#FFF6F6F6</Color>
+
+    <!-- #00FFFFFF -->
+    <Color x:Key="ColorControlBarBackgroundBrushKey">#00FFFFFF</Color>
+
+    <!-- #FF3E3D40 -->
+    <Color x:Key="ColorControlBarBorderBrushKey">#FF3E3D40</Color>
+
+    <!-- #FF58585A -->
+    <Color x:Key="ColorControlBarHeaderBackgroundBrushKey">#FF58585A</Color>
+
+    <!-- #FFA5D4D6 -->
+    <Color x:Key="ColorHighlightFilterBackgroundBrushKey">#FFA5D4D6</Color>
+
+    <!-- #FF666666, #FF666666 -->
+    <Color x:Key="ColorGradientActiveCaptionBrushKeyZero">#FF666666</Color>
+    <Color x:Key="ColorGradientActiveCaptionBrushKeyOne">#FF666666</Color>
+
+    <!-- #FFFFFFFF -->
+    <Color x:Key="ColorActiveCaptionTextBrushKey">#FFFFFFFF</Color>
+
+    <!-- #FFFFFFFF -->
+    <Color x:Key="ColorHighlightTextBrushKey">#FFFFFFFF</Color>
+
+    <!-- #FFFFFFFF -->
+    <Color x:Key="ColorTextBoxActiveBackgroundBrush">#FFFFFFFF</Color>
+
+    <!-- #FF666666 -->
+    <Color x:Key="ColorTextBoxSelectionBrush">#FF666666</Color>
+
+    <!-- #FF666666 -->
+    <Color x:Key="ColorTextBoxBorderBrush">#FF666666</Color>
+
+    <!-- #FF666666 -->
+    <Color x:Key="ColorDarkGrayTextBrushKey">#FF666666</Color>
+
+    <!-- #FF666666 -->
+    <Color x:Key="ColorHighlightBrushKey">#FF666666</Color>
+
+    <!-- #FFEEEEEE -->
+    <Color x:Key="ColorHotTrackBrushKey">#FFEEEEEE</Color>
+
+    <!--endregion Common Colors -->
+
+
+    <!-- region Online Colors -->
+
+    <!-- #FF58585A -->
+    <Color x:Key="OnlineValueNoneColor">#FF58585A</Color>
+
+    <!-- #FF6E600B -->
+    <Color x:Key="OnlineValueStringColor">#FF6E600B</Color>
+
+    <!-- #FF6E600B, #FF6E600B, #FF96D20D -->
+    <Color x:Key="ColorOnlineValueStringForcedBrushZero">#FF6E600B</Color>
+    <Color x:Key="ColorOnlineValueStringForcedBrushOne">#FF6E600B</Color>
+    <Color x:Key="ColorOnlineValueStringForcedBrushTwo">#FF96D20D</Color>
+
+    <!-- #FF1565D4 -->
+    <Color x:Key="OnlineValueIntegerColor">#FF1565D4</Color>
+
+    <!-- #FF1565D4, #FF1565D4, #FF96D20D -->
+    <Color x:Key="ColorOnlineValueIntegerForcedBrushZero">#FF1565D4</Color>
+    <Color x:Key="ColorOnlineValueIntegerForcedBrushOne">#FF1565D4</Color>
+    <Color x:Key="ColorOnlineValueIntegerForcedBrushTwo">#FF96D20D</Color>
+
+    <!-- #FFAE1173 -->
+    <Color x:Key="OnlineValueBooleanTrueColor">#FF16AE11</Color>
+
+    <!-- #FFAE1173, #FFAE1173, #FF96D20D -->
+    <Color x:Key="ColorOnlineValueBooleanTrueForcedBrushZero">#FFAE1173</Color>
+    <Color x:Key="ColorOnlineValueBooleanTrueForcedBrushOne">#FFAE1173</Color>
+    <Color x:Key="ColorOnlineValueBooleanTrueForcedBrushTwo">#FF96D20D</Color>
+
+    <!-- #FF645F8B -->
+    <Color x:Key="OnlineValueBooleanFalseColor">#FF645F8B</Color>
+
+    <!-- #FF645F8B, #FF645F8B, #FF96D20D -->
+    <Color x:Key="ColorOnlineValueBooleanFalseForcedBrushZero">#FF645F8B</Color>
+    <Color x:Key="ColorOnlineValueBooleanFalseForcedBrushOne">#FF645F8B</Color>
+    <Color x:Key="ColorOnlineValueBooleanFalseForcedBrushTwo">#FF96D20D</Color>
+
+    <!-- #FF96D20D -->
+    <Color x:Key="ColorOnlineValueForcedBrush">#FF96D20D</Color>
+
+    <!-- endregion Online Colors -->
+
+
+    <!-- region ContentTreeViewDictionary Colors -->
+
+    <Color x:Key="ColorEditControlSelectionBrush">#66FFFFFF</Color>
+
+    <!-- endregion ContentTreeViewDictionary Colors -->
+
+
+    <!-- region TypeHierarchyViewDictionary Colors -->
+
+    <Color x:Key="ColorTypeHierarchyBackgroundBrush">#FFECEDED</Color>
+
+    <!-- endregion TypeHierarchyViewDictionary Colors -->
+
+    
+    <!-- region LocalSearchReplaceToolbarDictionary Colors -->
+
+    <Color x:Key="ColorEditorToolBarBackgroundBrush">White</Color>
+
+    <!-- endregion LocalSearchReplaceToolbarDictionary Colors -->
+
+
+    <!-- region RichTextEditorControlDictionary Colors -->
+
+    <Color x:Key="ControlOverBorderBrush_MouseOver">#FF77B9BF</Color>
+    <Color x:Key="ColorMouseOverBorderBorderBrush_MouseNotOver">Transparent</Color>
+    <Color x:Key="ColorBorderBetweenScrollBarsBackground">#FFF5F5F5</Color>
+    <Color x:Key="ColorPrintingScreenGridBackground">White</Color>
+    <Color x:Key="ColorDisabledVisualElementBorderBackground">#A5F7F7F7</Color>
+    <Color x:Key="ColorDisabledVisualElementBorderBorderBrush">#A5F7F7F7</Color>
+    <Color x:Key="ColorFocusVisualElementBorderBorderBrush">#FF6DBDD1</Color>
+    <Color x:Key="ColorValidationToolTipTemplateBorder5Background">#FFDC000C</Color>
+    <Color x:Key="ColorValidationToolTipTemplateTextBlockForeground">#FFFFFFFF</Color>
+    <Color x:Key="ColorRichTextBoxSelectionFill">#604BB1FF</Color>
+    <Color x:Key="ColorRichTextBoxSelectionStroke">#601B81E7</Color>    
+
+    <!-- endregion RichTextEditorControlDictionary Colors -->
+
+
+    <!-- region TableSizeSelectorControlDictionary Colors -->
+
+    <Color x:Key="ColorTableSizeSelectorControlBorderBrush">#FF666666</Color>
+
+    <!-- endregion TableSizeSelectorControlDictionary Colors -->
+
+
+    <!-- region ObjectDataTemplateResources Colors -->
+
+    <Color x:Key="ColorConnectionlineStripBrush">Black</Color>
+    <Color x:Key="ColorConnectionPointpointShapeBrush">#2F2e31</Color>
+    <Color x:Key="ColorConnectionPointautoConnectorRect">White</Color>
+    <Color x:Key="ColorConnectionPointautoConnectorText">Black</Color>
+    <Color x:Key="ColorConnectionPointautoConnectorJunction">White</Color>
+    <Color x:Key="ColorConnectionPointautoConnectorRectIsSelected">DarkTurquoise</Color>
+    <Color x:Key="ColorConnectionPointautoConnectorJunctionIsSelected">DarkTurquoise</Color>
+    <Color x:Key="ColorConnectionPointautoConnectorRectIsSelectedUserConnector">DarkBlue</Color>
+    <Color x:Key="ColorConnectionPointautoConnectorJunctionIsSelectedUserConnector">DarkBlue</Color>
+
+    <Color x:Key="ColorWpfViewObjectsCommentUnsdersizedHintForeground">White</Color>
+    <Color x:Key="ColorWpfViewObjectsAttachedCommentUnsdersizedHint">White</Color>
+
+    <!-- endregion ObjectDataTemplateResources Colors -->
+
+
+    <!-- region SpecialDataTemplateResources Colors -->
+
+    <Color x:Key="ColorNonClickableItemRectangleFill">Transparent</Color>
+
+    <Color x:Key="ColorWpfViewObjectsTextInfoBackground">White</Color>
+    <Color x:Key="ColorGraphicEditorPosMarkerStyleBorderBrushOne">Transparent</Color>
+    <Color x:Key="ColorGraphicEditorPosMarkerStyleBorderBrushTwo">White</Color>
+    <Color x:Key="ColorGraphicEditorPosMarkerStyleBorderBrushThree">White</Color>
+    <Color x:Key="ColorWpfViewObjectsCommandButtonBackgroundShadow">White</Color>
+
+
+    <!-- endregion SpecialDataTemplateResources Colors -->
+
+    <!-- region CommonResources Colors -->
+
+    <Color x:Key="EditorBackgroundColor">#FFFFFF</Color>
+    <Color x:Key="EditorReadonlyBackgroundColor">#DDDDDD</Color>
+    <Color x:Key="EditorGridColor">#ECEDED</Color>
+    <Color x:Key="EditorPageBorderColor">#AAAAAA</Color>
+
+    <Color x:Key="SeverityOkColor">#86b30C</Color>
+    <Color x:Key="SeverityWarningColor">#e8aa00</Color>
+    <Color x:Key="SeverityErrorColor">#e80102</Color>
+
+
+    <Color x:Key="TextColor">#2F2E31</Color>
+    <Color x:Key="TextInvertedColor">#FFFFFF</Color>
+    
+    <Color x:Key="DrawingDarkColor">#2F2E31</Color>
+    <Color x:Key="DrawingLineColor">#3e3d3f</Color>
+    
+    <Color x:Key="DrawingFillColor">#ECEDED</Color>
+    <Color x:Key="DrawingFillShadowColor">#DADBDB</Color>
+    <Color x:Key="DrawingDarkFillColor">#CC666A6E</Color>
+    <Color x:Key="DrawingDarkFillShadowColor">#DD565A5E</Color>
+    <Color x:Key="DrawingSelectedColor">#0099A1</Color>
+    <Color x:Key="DrawingSelectedShadowColor">#008991</Color>
+    <Color x:Key="DrawingPermanentSelectedColor">#30A139</Color>
+    <Color x:Key="DrawingPermanentSelectedShadowColor">#209129</Color>
+    <Color x:Key="DrawingSafeFillColor">#FFF9DB</Color>
+    <Color x:Key="DrawingSafeFillShadowColor">#FFDA00</Color>
+    <Color x:Key="DrawingSyntaxErrorColor">#e80102</Color>
+    <Color x:Key="DrawingSyntaxErrorSelectedColor">#961414</Color>
+    <Color x:Key="DrawingSyntaxWarningColor">#d8a102</Color>
+    <Color x:Key="DrawingSyntaxWarningSelectedColor">#a89102</Color>
+
+    <Color x:Key="InfoDragInsertColor">#0099A1</Color>
+    <Color x:Key="InfoDragReplaceColor">#30A139</Color>
+    <Color x:Key="InfoSyntaxErrorColor">#e80102</Color>
+    <Color x:Key="InfoSyntaxWarningColor">#d8a102</Color>
+
+    <Color x:Key="InfoSemanticErrorColor">#e80102</Color>
+    <Color x:Key="InfoSemanticWarningColor">#d8a102</Color>
+
+    <Color x:Key="FeedbackColor">#994444</Color>
+    <Color x:Key="OnlineBreakpointColor">#8B0000</Color>
+    <Color x:Key="OnlineTopCallStackFrameIndicatorColor">#eecc00</Color>
+    <Color x:Key="OnlineCallStackFrameIndicatorColor">#88bb00</Color>
+    <Color x:Key="OnlineForcedColor">#C75CFF</Color>
+
+    <Color x:Key="ColorGraphicEditorBackgroundRectStyleFill">White</Color>
+
+    <Color x:Key="ColorInvalidAreaBrushRectangleFill">White</Color>
+
+    <!-- endregion CommonResources Colors -->
+
+
+    <!-- region PlcObjectDataTemplateResources Colors -->
+
+    <Color x:Key="ColorFunctionBlockinstanceTextBlockBackground">#32000000</Color>
+    <Color x:Key="ColorFunctionBlocktypeTextBlockBlockBackground">#32000000</Color>
+
+    <Color x:Key="ColorWpfViewObjectsIecConnectionPointNegationShapeFill">White</Color>
+    <Color x:Key="ColorObjectsCommentUnsdersizedHintForeground">White</Color>
+    <Color x:Key="ColorObjectsAttachedCommentUnsdersizedHintForeground">White</Color>
+
+    <!-- endregion PlcObjectDataTemplateResources Colors -->
+
+
+    <!-- region PlcFixedObjectDataTemplateResources Colors -->
+
+    <Color x:Key="ColorNetworkCommentLabelTextBlockBackground">#32000000</Color>
+    <Color x:Key="ColorNetworkCommentCommentTextBlockBackground">#32000000</Color>
+
+    <!-- endregion PlcFixedObjectDataTemplateResources Colors -->
+
+
+    <!-- region SimulinkCommonResources Colors -->
+
+    <Color x:Key="DarkStrokeColor">Black</Color>
+    <Color x:Key="GrayStrokeColor">Gray</Color>
+    <Color x:Key="WhiteBackgroundColor">White</Color>
+
+    <Color x:Key="SimulinkSubsystemColor">#88C040</Color>
+    <Color x:Key="SimulinkSubsystemShadowColor">#78B030</Color>
+    <Color x:Key="SimulinkDefaultBlockBackgroundColor">#FFFFFF</Color>
+    <Color x:Key="SimulinkDefaultBlockForegroundColor">#000000</Color>
+
+    <!-- endregion SimulinkCommonResources Colors -->
+
+
+    <!-- region TopologyHierarchyDictionary Colors -->
+
+    <Color x:Key="ColorHorizontalLinesBrush">#FF87888A</Color>
+    <Color x:Key="ColorViewTopologyHierarchyViewBackground">White</Color>
+
+    <!-- endregion TopologyHierarchyDictionary Colors -->
+
+
+    <!-- region TopologyEntityDataTemplateResources Colors -->
+
+    <Color x:Key="TopologyEntityDataTemplateDrawingSelectedColor">#008991</Color>
+    <Color x:Key="DrawingErrorColor">#e80102</Color>
+    <Color x:Key="DrawingErrorSelectedColor">#961414</Color>
+    <Color x:Key="ColorCopperConnectionViewModelLineStroke">Blue</Color>
+    <Color x:Key="ColorFiberOpticConnectionViewModelLineStroke">YellowGreen</Color>
+    <Color x:Key="ColorEthernetConnectionViewModelLineStroke">Black</Color>
+    <Color x:Key="ColorNetworkNodeViewModelRectangleFillOne">#E0E0E0</Color>
+    <Color x:Key="ColorNetworkNodeViewModelRectangleFillTwo">#C0C0C0</Color>
+    <Color x:Key="ColorNetworkNodeViewModelRectangleFillThree">Transparent</Color>
+
+    <!-- endregion TopologyEntityDataTemplateResources Colors -->
+
+
+    <!-- region LogicAnalyzerWindowDictionary Colors -->
+
+    <Color x:Key="ColorWindowBackgroundBrush">#FFF6F6F6</Color>
+    <Color x:Key="ColorToolbarBackgroundBrush">#FFECEDED</Color>
+    <Color x:Key="ColorTriggerAnnotationLineBrush">#FF8A8A89</Color>
+    <Color x:Key="ColorTriggerAnnotationTextBrush">#FF3E3D40</Color>
+    <Color x:Key="ColorHorizontalAxisBrush">#FF898988</Color>
+    <Color x:Key="ColorHorizontalAxisLabelBrush">#FF898988</Color>
+    <Color x:Key="ColorNotExistingVariableTextBrush">#D30617</Color>
+    <Color x:Key="ColorTriggerSettingsDropDownBorderBrush">#FFEBEBEC</Color>
+    <Color x:Key="ColorLegendBorderBrush">#C4C4C4</Color>
+    <Color x:Key="ColorLegendBackgroundBrush">#FFFFFFFF</Color>
+    <Color x:Key="ColorExpanderBorderBrush">#C4C4C4</Color>
+    <Color x:Key="ColorExpanderBackgrounBrush">#FFEBEBEC</Color>
+    <Color x:Key="ColorCrosshairLabelBackgroundBrush">#FFEBEBEC</Color>
+
+    <!-- endregion LogicAnalyzerWindowDictionary Colors -->
+
+
+    <!-- region AuthenticationBaseDictionary Colors -->
+
+    <Color x:Key="ColorSafetyBrush">#FFFFDA00</Color>
+    <Color x:Key="ColorSecurityBrush">#FFE76700</Color>
+
+    <!-- endregion AuthenticationBaseDictionary Colors -->
+
+
+    <!-- region DialogScreenDictionary Colors -->
+
+    <Color x:Key="ColorHeaderBackgroundBrush">#DD3E3D40</Color>
+    <Color x:Key="ColorButtonBackgroundBrush">#DD3E3D40</Color>
+    <Color x:Key="ColorDialogScreenDictionaryWindowBackgroundBrush">#FFF6F6F6</Color>
+
+    <Color x:Key="ColorDialogScreenCloseButtonContentFill">White</Color>
+    <Color x:Key="ColorDialogScreenCloseButtonStyleRectStroke">White</Color>
+    <Color x:Key="ColorDialogScreenAcceptButtonStyleForeground">White</Color>
+
+    <!-- endregion DialogScreenDictionary Colors -->
+
+
+    <!-- region TextEditorDictionary Colors -->
+
+    <Color x:Key="ColorTextEditorTransparentInactiveSelectionBrush">#66CFCFCF</Color>
+    <Color x:Key="ColorZoomableTextEditorStyleBackground">White</Color>
+
+    <!-- endregion TextEditorDictionary Colors -->
+
+
+    <!-- region DesktopAlertDictionary Colors -->
+
+    <Color x:Key="ColorControlBackground_Normal">Transparent</Color>
+    <Color x:Key="ColorControlOuterBorder_Normal">Transparent</Color>
+    <Color x:Key="ColorControlBackground_MouseOver">Transparent</Color>
+    <Color x:Key="ColorControlOuterBorder_MouseOver">Transparent</Color>
+    <Color x:Key="ColorControlBackground_Pressed">Transparent</Color>
+    <Color x:Key="ColorControlOuterBorder_Pressed">Transparent</Color>
+    <Color x:Key="ColorControlBackground_Disabled">Transparent</Color>
+    <Color x:Key="ColorControlOuterBorder_Disabled">Transparent</Color>
+    <Color x:Key="ColorControlOuterBorder_Checked">Transparent</Color>
+    <Color x:Key="ColorControlBackground">#FFFFFFFF</Color>
+    <Color x:Key="ColorControlOuterBorder">#FF848484</Color>
+    <Color x:Key="ColorDesktopAlert_Foreground">White</Color>
+    <Color x:Key="ColorDesktopAlert_BorderBrush">#FFCCD0D2</Color>
+    <Color x:Key="ColorDesktopAlert_Background">#FFD4EEEF</Color>
+    <Color x:Key="ColorDesktopAlert_Background_MouseOver">#FFD4EEEF</Color>
+    <Color x:Key="ColorDesktopAlert_Background_Pressed">#FFD4EEEF</Color>
+
+    <!-- endregion DesktopAlertDictionary Colors -->
+
+
+    <!-- region EditorToolBarDictionary Colors -->
+
+    <Color x:Key="ColorEditorToolBarDictionaryBackgroundBrush">White</Color>
+    <Color x:Key="ColorToolBarGlyphBrushKey">#FF0099A1</Color>
+
+    <!-- endregion EditorToolBarDictionary Colors -->
+
+
+    <!-- region GlobalNavigationControlDictionary Colors -->
+
+    <Color x:Key="ColorGlobalNavigationControlBorderBrush">#FF666666</Color>
+
+    <!-- endregion GlobalNavigationControlDictionary Colors -->
+
+
+    <!-- region MainToolBarDictionary Colors -->
+
+    <Color x:Key="ColorMainToolBarOverflowButtonPopupBackgroundBrush">#FFFFFFFF</Color>
+    <Color x:Key="ColorMainToolBarBorderBrush">#FFD9DADB</Color>
+    <Color x:Key="ColorMainToolBarOverflowButtonBackground">#FFD9DADB</Color>
+    <Color x:Key="ColorMainToolBarSeparatorBackgroundBrush">#FFD9DADB</Color>
+
+    <!-- endregion MainToolBarDictionary Colors -->
+
+
+    <!-- region RadDockingDictionary Colors -->
+
+    <Color x:Key="ColorGridResizer_Background_Preview">#80000000</Color>
+    <Color x:Key="ColorGridResizer_FocusFrame">#B25681CB</Color>
+    <Color x:Key="ColorPaneGroupBorderBrush">Transparent</Color>
+    <Color x:Key="ColorPaneGroup_Background">#FFFCFCFC</Color>
+    <Color x:Key="ColorPaneGroup_DocumentFrameL3_Brush">#FFFFFFFF</Color>
+    <Color x:Key="ColorPaneGroup_DocumentFrameL2_Brush">#FFE1E3EA</Color>
+    <Color x:Key="ColorPaneGroup_DocumentFrameL1_Brush">#FFA0AFC3</Color>
+    <Color x:Key="ColorButtonIconForeground_Disabled">#FFA7A7A7</Color>
+    <Color x:Key="ColorButtonIconBackground_Disabled">Transparent</Color>
+    <Color x:Key="ColorButtonIconBackground_Normal">Transparent</Color>
+
+    <Color x:Key="ColorButtonIconBackground_MouseOver">Transparent</Color>
+    <Color x:Key="ColorButtonIconBackground_Pressed">Transparent</Color>
+    <Color x:Key="ColorCompass_Indicator_BorderBrush">#FFA9BFD6</Color>
+    <Color x:Key="ColorCompass_Indicator_InnerBorderBrush">#B2FCFCFC</Color>
+    <Color x:Key="ColorCompass_Indicator_BorderBrush_Highlighted">#FFB8D6FB</Color>
+    <Color x:Key="ColorCompass_VisualCue_Background">#6699C4F0</Color>
+    <Color x:Key="ColorCompass_VisualCue_BorderBrush">#B27BA6F0</Color>
+    <Color x:Key="ColorDocumentHostBackground">Transparent</Color>
+    <Color x:Key="ColorDocking_BorderBrush">#FFA0AFC3</Color>
+    <Color x:Key="ColorPane_Tab_BorderBrush_Left">Transparent</Color>
+
+    <Color x:Key="ColorPane_Tab_BorderBrush_Left_MouseOver">Transparent</Color>
+    <Color x:Key="ColorPane_Tab_Background_Left_MouseOver">White</Color>
+    <Color x:Key="ColorPane_Tab_BorderBrush_Left_SelectedPinned">Transparent</Color>
+    <Color x:Key="ColorPane_Tab_Background_Top">Transparent</Color>
+    <Color x:Key="ColorPane_Tab_BorderBrush_Top_MouseOver">#FF91C3FF</Color>
+    <Color x:Key="ColorPane_Tab_Background_Top_MouseOver">Transparent</Color>
+    <Color x:Key="ColorPane_Tab_BorderBrush_Top_SelectedPinned">#FFBAC9DB</Color>
+    <Color x:Key="ColorPane_Tab_Background_Top_SelectedPinned">#FFFCFCFC</Color>
+    <Color x:Key="ColorPane_Tab_BorderBrush_Right">Transparent</Color>
+    <Color x:Key="ColorPane_Tab_BorderBrush_Right_MouseOver">Transparent</Color>
+
+    <Color x:Key="ColorPane_Tab_Background_Right_MouseOver">White</Color>
+    <Color x:Key="ColorPane_Tab_BorderBrush_Right_SelectedPinned">Transparent</Color>
+    <Color x:Key="ColorPane_Tab_BorderBrush_Bottom">Transparent</Color>
+    <Color x:Key="ColorPane_Tab_BorderBrush_Bottom_MouseOver">Transparent</Color>
+    <Color x:Key="ColorPane_Tab_Background_Bottom_MouseOver">White</Color>
+    <Color x:Key="ColorPane_Tab_BorderBrush_Bottom_SelectedPinned">Transparent</Color>
+    <Color x:Key="ColorPane_DocumentHostTab_Background">Red</Color>
+    <Color x:Key="ColorPane_DocumentHostTab_BorderBrush_MouseOver">Red</Color>
+    <Color x:Key="ColorPane_DocumentHostTab_Background_MouseOver">Green</Color>
+    <Color x:Key="ColorPane_DocumentHostTab_BorderBrush_Selected">Blue</Color>
+
+    <Color x:Key="ColorPane_DocumentHostTab_Background_Selected">Yellow</Color>
+    <Color x:Key="ColorPane_OuterBorderBrush">Transparent</Color>
+
+    <Color x:Key="ColorStickyTrueButtonContentFill">White</Color>
+    <Color x:Key="ColorStickyFalseButtonContentFill">White</Color>
+
+    <!-- endregion RadDockingDictionary Colors -->
+
+
+    <!-- region WpfStatusBarDictionary Colors -->
+
+    <Color x:Key="ColorCancelButtonBackgroundBrush">#FFFFFFFF</Color>
+    <Color x:Key="ColorCancelButtonMouseOverBackgroundBrush">#FF77B9BF</Color>
+    <Color x:Key="ColorCancelButtonPressedBackgroundBrush">#FF0098A1</Color>
+
+    <Color x:Key="ColorUiFrameworkWpfStatusBarForeground">White</Color>
+
+    <!-- endregion WpfStatusBarDictionary Colors -->
+
+
+    <!-- region ZoomSliderDictionary Colors -->
+
+    <Color x:Key="ColorZoomButtonBackgroundBrush">#FFECEDED</Color>
+    <Color x:Key="ColorZoomButtonMouseOverBackgroundBrush">#FF77B9BF</Color>
+    <Color x:Key="ColorZoomButtonPressedBackgroundBrush">#FF0098A1</Color>
+
+    <Color x:Key="ColorUiZoomSliderControlForeground">White</Color>
+
+    <!-- endregion ZoomSliderDictionary Colors -->
+
+
+    <!-- region DialogWindowDictionary Colors -->
+
+    <Color x:Key="ColorDialogWindowBackgroundBrush">#FFECEDED</Color>
+    <Color x:Key="ColorDialogWindowContentBackgroundBrush">#FFF6F6F6</Color>
+
+    <!-- endregion DialogWindowDictionary Colors -->
+
+
+    <!-- region FontChooserDictionary Colors -->
+
+    <Color x:Key="ColorFontChooserControlBrushKey">LightBlue</Color>
+    <Color x:Key="ColorFontChooserTextBlockForegroundOne">Black</Color>
+    <Color x:Key="ColorFontChooserTextBlockForegroundTwo">Black</Color>
+    <Color x:Key="ColorFontChooserTextBlockForegroundThree">Black</Color>
+
+    <!-- endregion FontChooserDictionary Colors -->
+
+
+    <!-- region MessageBoxDictionary Colors -->
+
+    <Color x:Key="ColorMessageBoxContentBackgroundBrush">#FFF6F6F6</Color>
+    <Color x:Key="ColorMessageBoxBackgroundBrush">#FFECEDED</Color>
+
+    <!-- endregion MessageBoxDictionary Colors -->
+
+
+    <!-- region ProgressWindowControlDictionary Colors -->
+
+    <Color x:Key="ColorProgressWindowControlContentBackgroundBrush">#FFF6F6F6</Color>
+    <Color x:Key="ColorProgressWindowControlBackgroundBrush">#FFECEDED</Color>
+
+    <!-- endregion ProgressWindowControlDictionary Colors -->
+
+
+    <!-- region SettingsControlDictionary Colors -->
+
+    <Color x:Key="ColorPagesBackgroundBrush">#FFF3F3F3</Color>
+    <Color x:Key="ColorHeaderSeparatorBorderBrush">#FF87888A</Color>
+    <Color x:Key="ColorInactiveBackgroundBrush">#FFDDDDDD</Color>
+
+    <!-- endregion SettingsControlDictionary Colors -->
+
+
+    <!-- region StyleableWindowDictionary Colors -->
+
+    <Color x:Key="ColorStyleableWindowHeaderBackgroundBrush">#FF3E3D40</Color>
+    <Color x:Key="ColorStyleableWindowHeaderForegroundBrush">#FFFFFFFF</Color>
+
+    <Color x:Key="ColorCloseButtonContentFill">White</Color>
+    <Color x:Key="ColorNormalizePathFill">White</Color>
+    <Color x:Key="ColorMaximizePathFill">White</Color>
+    <Color x:Key="ColorMinimizeButtonContentFill">White</Color>
+    <Color x:Key="ColorHeaderButtonStyleControlTemplateStroke">White</Color>
+
+
+    <!-- endregion StyleableWindowDictionary Colors -->
+
+
+    <!-- region DataGridDictionary Colors -->
+
+    <Color x:Key="ColorDataGridBackgroundBrush">#FFFFFFFF</Color>
+    <Color x:Key="ColorDataGridHeaderBorderBrush">#FFECEDED</Color>
+    <Color x:Key="ColorDataGridHorizontalLinesBrush">#FFECEDED</Color>
+    <Color x:Key="ColorDataGridVerticalLinesBrush">#FFECEDED</Color>
+    <Color x:Key="ColorDataGridBorderBrush">#FFCCD0D2</Color>
+
+    <Color x:Key="ColorDataGridHeaderBackgroundBrushOne">#FFE0E4E8</Color>
+    <Color x:Key="ColorDataGridHeaderBackgroundBrushTwo">#FFCED2D7</Color>
+    <Color x:Key="ColorDataGridArrowDownBrush">#FF666A6E</Color>
+    <Color x:Key="ColorDataGridArrowUpBrush">#FF666A6E</Color>
+
+
+    <!-- endregion DataGridDictionary Colors -->
+
+
+    <!-- region ExpanderDictionary Colors -->
+
+    <Color x:Key="ColorExpanderOpenBackgroundBrush">White</Color>
+
+    <!-- endregion ExpanderDictionary Colors -->
+
+
+    <!-- region GroupBoxDictionary Colors -->
+
+    <Color x:Key="ColorGroupBoxSeparatorBorderBrush">#FF87888A</Color>
+
+    <!-- endregion GroupBoxDictionary Colors -->
+
+
+    <!-- region HyperlinkDictionary Colors -->
+
+    <Color x:Key="ColorHyperlinkMouseOver">#FF77B9BF</Color>
+    <Color x:Key="ColorHyperlinkFocused">#FF0098A1</Color>
+
+    <Color x:Key="ColorHyperlinkForeground">Black</Color>
+
+    <!-- endregion HyperlinkDictionary Colors -->
+
+
+    <!-- region ListViewDictionary Colors -->
+
+    <Color x:Key="ColorGridViewColumnHeaderBorderBrush">#FF666666</Color>
+    <Color x:Key="ColorGridViewColumnHeaderGripperBrush">White</Color>
+    <Color x:Key="ColorGridViewColumnHeaderBackgroundBrush">#FF666666</Color>
+
+    <Color x:Key="ColorGridViewGridViewScrollViewerStyleRectFillOne">White</Color>
+    <Color x:Key="ColorGridViewGridViewScrollViewerStyleRectFillTwo">White</Color>
+
+
+    <!-- endregion ListViewDictionary Colors -->
+
+
+    <!-- region MainMenuDictionary Colors -->
+
+    <Color x:Key="ColorMainMenuPopupBackgroundBrush">#FFFFFFFF</Color>
+    <Color x:Key="ColorMainMenuPopupBorderBrush">#FFCCD0D2</Color>
+    <Color x:Key="ColorMainMenuTopLevelItemMouseOverBrush">#FF666666</Color>
+    <Color x:Key="ColorMainMenuMouseOverBackgroundBrush">#FF666666</Color>
+    <Color x:Key="ColorMainMenuBorderBrush">#FFD9DADB</Color>
+
+    <Color x:Key="ColorMainMenuArrowRightMouseOverBrush">White</Color>
+
+    <!-- endregion MainMenuDictionary Colors -->
+
+
+    <!-- region ProgressBarDictionary Colors -->
+
+    <Color x:Key="ColorShadowBrush">#3C1A171B</Color>
+
+    <!-- endregion ProgressBarDictionary Colors -->
+
+
+    <!-- region ScrollBarDictionary Colors -->
+
+    <Color x:Key="ColorScrollBarThumbBackground">#FF87888a</Color>
+    <Color x:Key="ColorScrollBarButtonBackground">#FF3E3D40</Color>
+    <Color x:Key="ColorScrollBarBackground">Transparent</Color>
+    <Color x:Key="ColorScrollBarPressedBackgroundBrush">#FF7FCCD0</Color>
+    <Color x:Key="ColorScrollBarMouseOverBackgroundBrush">#FFD4EEEF</Color>
+
+    <!-- endregion ScrollBarDictionary Colors -->
+
+
+    <!-- region SeparatorDictionary Colors -->
+
+    <Color x:Key="ColorSeparatorBackgroundBrush">#FFCCD0D2</Color>
+
+    <!-- endregion SeparatorDictionary Colors -->
+
+
+    <!-- region SliderDictionary Colors -->
+
+    <Color x:Key="ColorSliderTrackBackgroundBrush">#FFECEDED</Color>
+    <Color x:Key="ColorSliderThumbDisabledBackgroundBrush">White</Color>
+    <Color x:Key="ColorSliderThumbBackgroundBrush">#FF58585A</Color>
+    <Color x:Key="ColorSliderThumbMouseOverBackgroundBrush">#FF77B9BF</Color>
+    <Color x:Key="ColorSliderThumbMouseOverBorderBrush">White</Color>
+    <Color x:Key="ColorSliderThumbPressedBackgroundBrush">#FF0098A1</Color>
+    <Color x:Key="ColorSliderThumbPressedBorderBrush">White</Color>
+    <Color x:Key="ColorSliderThumbFocusedBackgroundBrush">#FFECEDED</Color>
+    <Color x:Key="ColorSliderThumbFocusedBorderBrush">#FF0098A1</Color>
+    <Color x:Key="ColorSliderThumbBorderBrush">White</Color>
+    <Color x:Key="ColorSliderTickBackgroundBrush">#FFCCD0D2</Color>
+
+    <!-- endregion SliderDictionary Colors -->
+
+
+    <!-- region StatusBarDictionary Colors -->
+
+    <Color x:Key="ColorStatusBarSeparatorBackgroundBrush">#FF666A6E</Color>
+
+    <!-- endregion StatusBarDictionary Colors -->
+
+
+    <!-- region TabControlDictionary Colors -->
+
+    <Color x:Key="ColorTabControlActiveTabItemForegroundBrush">White</Color>
+    <Color x:Key="ColorTabControlTabItemBorderBrush">Black</Color>
+    <Color x:Key="ColorTabControlMouseOverTabItemBackgroundBrush">#FF333333</Color>
+    <Color x:Key="ColorTabControlPressedTabItemBackgroundBrush">#FF666666</Color>
+    <Color x:Key="ColorTabControlSelectedTabItemForegroundBrush">Black</Color>
+    <Color x:Key="ColorTabControlInactiveTabItemForegroundBrush">White</Color>
+    <Color x:Key="ColorTabControlDropDownMenuBackgroundBrush">#FF3E3D40</Color>
+    <Color x:Key="ColorTabControlDropDownMenuItemHighlightedBackgroundBrush">#FF181819</Color>
+    <Color x:Key="ColorTabControlDropDownMenuItemHighlightedForegroundBrush">#FF8ACCD1</Color>
+    <Color x:Key="ColorTabControlDisabledBackgroundBrush">#FFECEDED</Color>
+    <Color x:Key="ColorTabControlBorderBrush">Black</Color>
+
+    <Color x:Key="ColorTabControlRightArrowButtonContentFill">White</Color>
+    <Color x:Key="ColorTabControlLeftArrowButtonContentFill">White</Color>
+    <Color x:Key="ColorTabControlDropDownMenuItemStyleForeground">White</Color>
+    <Color x:Key="ColorTabControlDropDownButtonStyleForeground">White</Color>
+
+    <Color x:Key="ColorTabScrollerLeftRepeatButtonStyleForeground">Black</Color>
+    <Color x:Key="ColorTabScrollerRightRepeatButtonStyleForeground">Black</Color>
+
+    <!-- endregion TabControlDictionary Colors -->
+
+
+    <!-- region TelerikGridViewCommon Colors -->
+
+    <Color x:Key="ColorRowBackgroundBrush">#FFFFFFFF</Color>
+    <Color x:Key="ColorRowMouseOverBackgroundBrush">#FFD4EDEF</Color>
+    <Color x:Key="ColorRowSelectionBackgroundBrush">#FF7FCCD0</Color>
+    <Color x:Key="ColorRowSelectionInactiveBackgroundBrush">#FFCFCFCF</Color>
+    <Color x:Key="ColorRowInvalidBackgroundBrush">#FFCE7D7D</Color>
+    <Color x:Key="ColorRowBorderBrush">#FFCBCBCB</Color>
+    <Color x:Key="ColorRowIndicatorCellBackgroundBrush">#FFF3F3F3</Color>
+    <Color x:Key="ColorGridViewLoadingIndicatorBackground">#BBDDDDDD</Color>
+
+    <Color x:Key="ColorGridViewLoadingIndicatorAnimationBackgroundOne">#FF7FCCD0</Color>
+    <Color x:Key="ColorGridViewLoadingIndicatorAnimationBackgroundTwo">#FFD4EDEF</Color>
+    <Color x:Key="ColorGridViewLoadingIndicatorAnimationBackgroundThree">#99FFFFFF</Color>
+
+
+    <!-- endregion TelerikGridViewCommon Colors -->
+
+
+    <!-- region TelerikGridViewDictionary Colors -->
+
+    <Color x:Key="ColorGridBackgroundDisabledBrush">#AADDDDDD</Color>
+    <Color x:Key="ColorEditorPresenterOuterBorderInvalidBrush">#FFDB000C</Color>
+    <Color x:Key="ColorHeaderRowBackgroundBrush">#FFFFFFFF</Color>
+    <Color x:Key="ColorHeaderRowOuterBorderBrush">#FF87888A</Color>
+    <Color x:Key="ColorHeaderCellBackgroundBrush">#FFFFFFFF</Color>
+    <Color x:Key="ColorHeaderCellBorderBrush">#FF87888A</Color>
+    <Color x:Key="ColorHeaderCellOverBackgroundBrush">#FFD4EDEF</Color>
+    <Color x:Key="ColorHeaderCellOverBorderBrush">#FF87888A</Color>
+    <Color x:Key="ColorHeaderCellSelectedBackgroundBrush">#FF7FCCD0</Color>
+    <Color x:Key="ColorHeaderCellSelectedBorderBrush">#FF87888A</Color>
+
+    <Color x:Key="ColorHeaderCellForegroundBrush">#FF3E3D40</Color>
+    <Color x:Key="ColorDetailHeaderCellBackgroundBrush">#FFECEDED</Color>
+    <Color x:Key="ColorDetailHeaderCellBorderBrush">#FF87888A</Color>
+    <Color x:Key="ColorDetailHeaderCellOverBackgroundBrush">#FFD4EDEF</Color>
+    <Color x:Key="ColorDetailHeaderCellOverBorderBrush">#FF87888A</Color>
+    <Color x:Key="ColorDetailHeaderCellSelectedBackgroundBrush">#FF7FCCD0</Color>
+    <Color x:Key="ColorDetailHeaderCellSelectedBorderBrush">#FF87888A</Color>
+    <Color x:Key="ColorDetailHeaderCellForegroundBrush">#FF58585A</Color>
+    <Color x:Key="ColorCellBorderBrush">#FFD9DADB</Color>
+    <Color x:Key="ColorCellSelectionActiveBorderBrush">#FF6CBCBE</Color>
+
+    <Color x:Key="ColorCellSelectionInactiveBorderBrush">#FFBCBDBD</Color>
+    <Color x:Key="ColorCellForegroundBrush">#FF3E3D40</Color>
+    <Color x:Key="ColorCellReadOnlyForegroundBrush">#FF666666</Color>
+    <Color x:Key="ColorCellCurrentBorderBrush">#FF3E3D40</Color>
+    <Color x:Key="ColorCellCurrentSelectionInactiveBorderBrush">#FF666666</Color>
+    <Color x:Key="ColorCellInactiveBackgroundBrush">#80E5E5E5</Color>
+    <Color x:Key="ColorGridInactiveBackgroundBrush">#FFF0F0F0</Color>
+    <Color x:Key="ColorCellInactiveForegroundBrush">#FF808080</Color>
+    <Color x:Key="ColorGroupPanelOuterBorderBrush">#FF848484</Color>
+
+    <Color x:Key="ColorGridViewCellCoreValidationTemplateSelectionBorderBackground">#99FFFFFF</Color>
+
+    <Color x:Key="ColorTelerikGridViewHeaderCellDropIndicatorBrush">Black</Color>
+    <Color x:Key="ColorTelerikGridViewHeaderCellContentControlForeground">Black</Color>
+    <Color x:Key="ColorTelerikGridViewDetailHeaderCellStyleDropIndicatorBrush">Black</Color>
+    <Color x:Key="ColorTelerikGridViewDetailHeaderCellStyleContentControlForeground">Black</Color>
+
+    <!-- endregion TelerikGridViewDictionary Colors -->
+
+
+    <!-- region TelerikPropertyGridDictionary Colors -->
+
+    <Color x:Key="ColorPropertyGrid_TemplatesBorderBrush">#FFCBCBCB</Color>
+    <Color x:Key="ColorPropertyGrid_IndentCellBackground">#FFE4E4E4</Color>
+    <Color x:Key="ColorPropertyGrid_ToggleButton_Indicator">Black</Color>
+    <Color x:Key="ColorPropertyGrid_RadioButton_Indicator">Black</Color>
+    <Color x:Key="ColorPropertyGrid_SearchIndicator_Background">#FF919191</Color>
+    <Color x:Key="ColorPropertyGrid_DescriptionBackground">#FFBFBFBF</Color>
+    <Color x:Key="ColorPropertyGrid_ItemInnerBorder_Over">White</Color>
+    <Color x:Key="ColorPropertyGrid_ItemBackground_Over">#FFD4EDEF</Color>
+    <Color x:Key="ColorPropertyGrid_NavigatorIconColor">Black</Color>
+    <Color x:Key="ColorPropertyGrid_ControlInnerBorder">White</Color>
+
+    <Color x:Key="ColorPropertyGrid_HeaderBackgroundOne">White</Color>
+    <Color x:Key="ColorPropertyGrid_HeaderBackgroundTwo">#FFCDCDCD</Color>
+    <Color x:Key="ColorPropertyGrid_HeaderBackgroundThree">#FFCECECE</Color>
+    <Color x:Key="ColorPropertyGrid_HeaderBackgroundFour">#FFAFAFAF</Color>
+
+    <!-- endregion TelerikPropertyGridDictionary Colors -->
+
+
+    <!-- region ToggleButtonDictionary Colors -->
+
+    <Color x:Key="ColorToggleButtonCheckedBorderBrush">#FF3E3D40</Color>
+
+    <!-- endregion ToggleButtonDictionary Colors -->
+
+
+    <!-- region ToolBarDictionary Colors -->
+
+    <Color x:Key="ColorToolBarBorderBrush">#FFD9DADB</Color>
+    <Color x:Key="ColorCommonColorsToolBarGlyphBrushKey">#FF0099A1</Color>
+    <Color x:Key="ColorToolBarOverflowButtonBackground">#FFD9DADB</Color>
+    <Color x:Key="ColorToolBarSeparatorBackgroundBrush">#FFD9DADB</Color>
+    <Color x:Key="ColorToolBarToggleButtonHorizontalBackground">#FFF5F5F5</Color>
+    <Color x:Key="ColorToolBarButtonHover">LightGray</Color>
+    <Color x:Key="ColorToolBarGripper">#FFC6C3C6</Color>
+
+    <!-- endregion ToolBarDictionary Colors -->
+
+
+    <!-- region ToolTipDictionary Colors -->
+
+    <Color x:Key="ColorToolTipBackgroundBrush">#FFFFFFFF</Color>
+    <Color x:Key="ColorToolTipBorderBrush">#FFCCD0D2</Color>
+
+    <!-- endregion ToolTipDictionary Colors -->
+
+
+    <!-- region TreeViewDictionary Colors -->
+
+    <Color x:Key="ColorTreeViewBackgroundBrush">White</Color>
+    <Color x:Key="ColorTreeViewMouseOverBackgroundBrush">White</Color>
+    <Color x:Key="ColorTreeViewBorderBrush">#FF666666</Color>
+
+    <Color x:Key="ColorTreeViewArrowRightMouseOverBrush">White</Color>
+    <Color x:Key="ColorTreeViewArrowDownMouseOverBrush">White</Color>
+
+    <!-- endregion TreeViewDictionary Colors -->
+
+
+    <!-- region EditorExpanderDictionary Colors -->
+
+    <Color x:Key="ColorSafetyEditorExpanderForegroundBrush">#FFFFDA00</Color>
+
+    <!-- endregion EditorExpanderDictionary Colors -->
+
+
+    <!-- region TelerikTreeListViewDictionary Colors -->
+
+    <Color x:Key="ColorTelerikGridViewToggleButtonBorderBrushOne">#FF282828</Color>
+    <Color x:Key="ColorTelerikGridViewToggleButtonBorderBrushTwo">#FFBFBFBF</Color>
+
+    <Color x:Key="ColorTelerikGridViewToggleButtonBackgroundOne">#FFD1D1D1</Color>
+    <Color x:Key="ColorTelerikGridViewToggleButtonBackgroundTwo">White</Color>
+
+    <!-- endregion TelerikTreeListViewDictionary Colors -->
+
+
+    <!-- region StartPage Colors -->
+
+    <Color x:Key="ColorStartPageSecondBorderOne">#FFFFFFFF</Color>
+    <Color x:Key="ColorStartPageSecondBorderTwo">#FFFFFFFF</Color>
+    <Color x:Key="ColorStartPageTitleBackground">White</Color>
+    <Color x:Key="ColorStartPageAdditionalProductInformationForeground">#FFE80102</Color>
+    <Color x:Key="ColorStartPageTitleBuildNoBackground">White</Color>
+    <Color x:Key="ColorStartPageThirdSecondBorderOne">#FFFFFFFF</Color>
+    <Color x:Key="ColorStartPageThirdSecondBorderTwo">#FFFFFFFF</Color>
+
+    <!-- endregion StartPage Colors -->
+
+
+    <!-- region UnexpectedExceptionWindowDictionary Colors -->
+
+    <Color x:Key="ColorUnexpectedExceptionWindowUpperPartBackground">White</Color>
+
+    <!-- endregion UnexpectedExceptionWindowDictionary Colors -->
+
+
+    <!-- region DataListDictionary Colors -->
+
+    <Color x:Key="ColorDataListEditorDataListViewModelIsInvalidBorderBrush">Red</Color>
+    <Color x:Key="ColorDataListEditorDataListViewModelIsInvalidBackground">White</Color>
+
+    <!-- endregion DataListDictionary Colors -->
+
+
+    <!-- region SfcObjectDataTemplateResources Colors -->
+
+    <Color x:Key="ColorStepPrintTemplateTextBlockBackground">White</Color>
+    <Color x:Key="ColorWpfViewObjectsActionBlockTextBlockForeground">White</Color>
+
+    <!-- endregion SfcObjectDataTemplateResources Colors -->
+
+
+    <!-- region NavigationResourceDictionary Colors -->
+
+    <Color x:Key="ColorNavigationPageReferenceViewModelFill">White</Color>
+
+    <!-- endregion NavigationResourceDictionary Colors -->
+
+
+    <!-- region ExpressionEditControlDictionary Colors -->
+
+    <Color x:Key="ColorEditorExpressionEditControlBackground">White</Color>
+
+    <!-- endregion ExpressionEditControlDictionary Colors -->
+
+
+    <!-- region SignatureWindowDictionary Colors -->
+
+    <Color x:Key="ColorLocalSignatureWindowControlBackground">White</Color>
+
+    <!-- endregion SignatureWindowDictionary Colors -->
+
+
+    <!-- region EditorGroupHostDictionary Colors -->
+
+    <Color x:Key="ColorUiEditorGroupHostPARTEditorsBackground">White</Color>
+
+    <!-- endregion EditorGroupHostDictionary Colors -->
+
+
+    <!-- region EditorSpringToolBarTrayDictionary Colors -->
+
+    <Color x:Key="ColorUiEditorSpringToolBarTrayBackground">White</Color>
+
+    <!-- endregion EditorSpringToolBarTrayDictionary Colors -->
+
+
+    <!-- region EditorWorkspaceHostDictionary Colors -->
+
+    <Color x:Key="ColorEditorWorkspaceHostItemStyleIsDocumentHostBackground">White</Color>
+
+    <!-- endregion EditorWorkspaceHostDictionary Colors -->
+
+
+    <!-- region MainControlDictionary Colors -->
+
+    <Color x:Key="ColorUiMainControlMainStatusBarForeground">White</Color>
+
+    <!-- endregion MainControlDictionary Colors -->
+
+
+    <!-- region VariablesEditorDictionary Colors -->
+
+    <Color x:Key="ColorBaseVariablesEditorControlBorderBorderBrush">Red</Color>
+    <Color x:Key="ColorBaseVariablesEditorControlBorderBackground">White</Color>
+
+    <!-- endregion VariablesEditorDictionary Colors -->
+
+
+    <!-- region ColorPickerBaseDictionary Colors -->
+
+    <Color x:Key="ColorMorecolorgradientbrushOne">Orange</Color>
+    <Color x:Key="ColorMorecolorgradientbrushTwo">White</Color>
+
+    <!-- endregion ColorPickerBaseDictionary Colors -->
+
+
+    <!-- region OnlineValueControlDictionary Colors -->
+
+    <Color x:Key="ColorNoneTemplateAutomatableTextBlockForeground">White</Color>
+    <Color x:Key="ColorStringTemplateAutomatableTextBlockForeground">White</Color>
+    <Color x:Key="ColorIntegerTemplateAutomatableTextBlockForeground">White</Color>
+    <Color x:Key="ColorStringBoolTemplateAutomatableTextBlockForeground">White</Color>
+
+    <!-- endregion OnlineValueControlDictionary Colors -->
+
+
+    <!-- region StatusBarControlsDictionary Colors -->
+
+    <Color x:Key="ColorCommonTextStatusBarControlBackground">Transparent</Color>
+    <Color x:Key="ColorCommonTextStatusBarControlForeground">White</Color>
+    <Color x:Key="ColorCommonImageStatusBarControlBackground">Transparent</Color>
+    <Color x:Key="ColorCommonImageStatusBarControlForeground">White</Color>
+    <Color x:Key="ColorCommonImageTextStatusBarControlBackground">Transparent</Color>
+    <Color x:Key="ColorCommonImageTextStatusBarControlForeground">White</Color>
+
+    <!-- endregion StatusBarControlsDictionary Colors -->
+
+
+    <!-- region TreeBrowserControlDictionary Colors -->
+
+    <Color x:Key="ColorCommonTreeBrowserControlBackground">White</Color>
+
+    <!-- endregion TreeBrowserControlDictionary Colors -->
+
+
+    <!-- region TreeListViewDictionary Colors -->
+
+    <Color x:Key="ColorTreeListViewArrowRightHighlightBrush">White</Color>
+    <Color x:Key="ColorTreeListViewArrowDownHighlightBrush">White</Color>
+
+    <!-- endregion TreeListViewDictionary Colors -->
+
+    <!-- region PlcMediatorStatusBarControlsDictionary Colors -->
+
+    <Color x:Key="ColorPlcPlcTextStatusBarPanelControlErrorBackground">#FF961313</Color>
+    <Color x:Key="ColorPlcPlcTextStatusBarPanelControlErrorForeground">White</Color>
+    <Color x:Key="ColorPlcPlcTextStatusBarPanelControlWarningBackground">Yellow</Color>
+    <Color x:Key="ColorPlcPlcTextStatusBarPanelControlRunningBackground">LightGreen</Color>
+    <Color x:Key="ColorPlcPlcTextStatusBarPanelControlStopBackground">LightSkyBlue</Color>
+    <Color x:Key="ColorPlcPlcTextStatusBarPanelControlHaltBackground">Gold</Color>
+    <Color x:Key="ColorPlcPlcTextStatusBarPanelControlCancelledBackground">LightGray</Color>
+
+    <!-- endregion PlcMediatorStatusBarControlsDictionary Colors -->
+
+
+    <!-- region HighlightableTextBlockDictionary Colors -->
+
+    <Color x:Key="ColorCommonHighlightableTextBlockHighlightBackground">#FF0078D7</Color>
+    <Color x:Key="ColorCommonHighlightableTextBlockHighlightForeground">#FFFFFFFF</Color>
+
+    <!-- endregion HighlightableTextBlockDictionary Colors -->
+
+
+    <!-- region RichTextEditorControlDictionary Colors -->
+
+    <Color x:Key="ColorRadRichTextBoxStyleBackground">#FFFFFFFF</Color>
+
+    <!-- endregion RichTextEditorControlDictionary Colors -->
+
+
+    <!-- region SpecialDataTemplateResources Colors -->
+
+    <Color x:Key="ColorWpfViewObjectsCommandButtonBorderBackground">#CDFFFFFF</Color>
+    <Color x:Key="ColorWpfViewObjectsInplaceCommentEditHintTextForeground">Gray</Color>
+
+
+    <!-- endregion SpecialDataTemplateResources Colors -->
+
+
+    <!-- region DiscoveryEditorDictionary Colors -->
+
+    <Color x:Key="ColorVwDiscoveryEditorViewBorderBackground">#80000000</Color>
+    <Color x:Key="ColorVwDiscoveryEditorViewBorderTextBlockForeground">#7EFFFFFF</Color>
+
+    <!-- endregion DiscoveryEditorDictionary Colors -->
+
+
+    <!-- region AuthenticationManagementStatusBarPanelDictionary Colors -->
+
+    <Color x:Key="ColorToggleStateButtonStyleBackground">Transparent</Color>
+    <Color x:Key="ColorToggleStateButtonStyleForeground">#FFFFFFFF</Color>
+
+    <!-- endregion AuthenticationManagementStatusBarPanelDictionary Colors -->
+
+
+    <!-- region TelerikGridViewMultiConfiguration Colors -->
+
+    <Color x:Key="ColorCoreValidationMultiConfigurationSelectionBorderBackground">#99FFFFFF</Color>
+
+    <!-- endregion TelerikGridViewMultiConfiguration Colors -->
+
+
+    <!-- region VersionControlCommonView Colors -->
+
+    <Color x:Key="ColorVcsCommonViewForeground">LightGray</Color>
+
+    <!-- endregion VersionControlCommonView Colors -->
+
+
+    <!-- region RevisionInfoControlDictionary Colors -->
+
+    <Color x:Key="ColorTelerikIntegrationCommonKeysNewLineTextBlockStyleKeyForeground">Gray</Color>
+
+    <!-- endregion RevisionInfoControlDictionary Colors -->
+
+
+    <!-- region PlcSpecialDataTemplateResources Colors -->
+
+    <Color x:Key="ColorObjectsInplaceCommentEditHintTextForeground">Gray</Color>
+
+    <!-- endregion PlcSpecialDataTemplateResources Colors -->
+
+</ResourceDictionary>
